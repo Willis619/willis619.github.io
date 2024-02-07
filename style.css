@@ -1,6 +1,6 @@
 body {
     background: rgb(125, 198, 205);
-    color: rgb(45, 45, 45);
+    color: rgb(238, 231, 231);
     padding: 10px;
     font-family: arial;
 }
@@ -24,7 +24,6 @@ h1 {
     color: rgb(15, 46, 170);
     flex: 1;
     margin: 0;
-    border-radius: 30px;
 }
 #nav-ul {
     list-style-image: none;
@@ -35,12 +34,13 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: #fff;
+    color: #920d37;
+    border-radius: 30px;
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(47, 68, 176);
     display: flex;
 }
 .sidebar {
