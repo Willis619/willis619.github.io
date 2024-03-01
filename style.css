@@ -30,7 +30,7 @@ h1 {
 }
 .nav-li {
     display: inline-block;
-    padding: 0 10px;
+    padding: 10px;
 }
 a {
     text-decoration: none;
@@ -42,6 +42,7 @@ a {
 main {
     background: rgb(47, 68, 176);
     display: flex;
+    border-radius: 30px;
 }
 .sidebar {
     margin-right: 25px;
