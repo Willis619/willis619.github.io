@@ -77,13 +77,13 @@
 
           moveBoxTo(positionX);
 
-          if (position > boardWidth) {
+          if (positionX > boardWidth) {
             position = 0;
 
             speed = -speed;
           }
 
-          if (position < boardWidth) {
+          if (positionX < boardWidth) {
             position = 0;
 
             speed = speed;
