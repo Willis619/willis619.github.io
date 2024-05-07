@@ -33,7 +33,7 @@ var init = function (window) {
         drawCircle();
 
         for (var loopsCompleted = 0; loopsCompleted < 100; loopsCompleted++) {
-            // do something
+            drawCircle();
           }
 
         ////////////////////////////////////////////////////////////
@@ -49,11 +49,11 @@ var init = function (window) {
             // TODO 4 : Update the circle's position //
            
 
-            for (var i = 100; i < circles.length; i++) {
+            for (var i = 0; i < circles.length; i++) {
                 // code to repeat using i
-                physikz.updatePosition(circles[i])
+                physikz.updatePosition(circles[i]);
 
-                game.checkCirclePosition(circles[i])
+                game.checkCirclePosition(circles[i]);
               }
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
